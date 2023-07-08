@@ -1,0 +1,56 @@
+body {
+    background-image: url("/images/bg.jpg");
+}
+
+.container {
+    padding:0;
+    background-color: white;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    max-height: 500px;
+    max-width: 500px;
+    margin:auto;
+}
+
+.center {
+    text-align: center;
+}
+
+.submit-btn {
+    width: 80%;
+    background: green;
+    color: white;
+    border-radius: 3px;;
+    margin: 5%;
+    align-self: center;
+}
+
+.tabla{
+    display: table;
+    padding: 5%;
+}
+
+p{
+    display: table-row;
+    width: 100%;
+    padding: 1%;
+}
+
+label{
+    display: table-cell;
+    padding: 1%;
+}
+
+input{
+    display: table-cell;
+    width: 100%;
+}
+
+button{
+    display: table-cell;
+    column-span: 2;
+}
+
+.redtxt{
+    color: red;
+    font-size: small;
+}

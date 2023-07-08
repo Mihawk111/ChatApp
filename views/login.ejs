@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login</title>
+    <link rel="stylesheet" href="css/login.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="center"><h1>Login</h1></div>
+      <form action="login" method="post">
+        <div class="tabla">
+          <p>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" />
+          </p>
+          <p>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" />
+          </p>
+          <p class="redtxt"><%=msg%></p>
+          <p><a href="/signup">New User, Sign Up</a></p>
+        </div>
+        <button type="submit" class="submit-btn">Login</button>
+      </form>
+    </div>
+  </body>
+</html>
